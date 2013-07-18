@@ -407,6 +407,13 @@ var requirejs, require, define;
 
 define("almond", function(){});
 
+/**
+ * This is used with the almond build when you know jquery is included
+ */
+define('jquery',[],function(){
+	return jQuery;
+});
+
 define('jquery.alpha',["jquery"], function($) {
   $.fn.alpha = function() {
       return this.append('<p>Alpha is Go!</p>');

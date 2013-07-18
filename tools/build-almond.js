@@ -7,12 +7,12 @@
     // point to the shim config we set up before
     "mainConfigFile": "../www/js/app.js",
 
-	"include": "app",
-	"name": "almond",
-	"out": "../www-build-almond/js/app.js",
+    "include": "app",
+    "name": "almond",
+    "out": "../www-build-almond/js/app.js",
 
     "paths":
         {
-            "jquery": "empty:"
+            "jquery": "jquery.stub"
         }
 }
